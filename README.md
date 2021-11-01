@@ -1,27 +1,35 @@
 # SimpleLoginPage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+![imagedemo](https://jennie-uploaded-assets.s3.ap-south-1.amazonaws.com/Screenshot%202021-11-01%20at%201.16.13%20PM.png)
 
-## Development server
+## Intregration Steps
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Extract the code to some directy, Once the code is extracted, user can see folder structure
 
-## Code scaffolding
+```
+src/
+  app/
+    forget-password/
+      forget-password.component.html
+      forget-password.component.ts
+      forget-password.component.css
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    login/
+      login.component.html
+      login.component.ts
+      login.component.css      
+```
 
-## Build
+copy folder `forget-password` and `login` inside `src/app/`, Add `ForgetPasswordComponent`, `LoginComponent` to app.module.ts. The data templete is added to project.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Use show login/signup page.
+```
+<app-login></app-login>    
+```
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Use show forget page.
+```
+<app-forget-password></app-forget-password>    
+```
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
