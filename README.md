@@ -1,7 +1,5 @@
 # SimpleLoginPage
 
-![imagedemo](https://jennie-uploaded-assets.s3.ap-south-1.amazonaws.com/Screenshot%202021-11-01%20at%201.16.13%20PM.png)
-
 ## Intregration Steps
 
 Extract the code to some directy, Once the code is extracted, user can see folder structure
