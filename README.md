@@ -1,5 +1,7 @@
 # SimpleLoginPage
 
+![imagedemo](src/assets/simplelogin.png)
+
 ## Intregration Steps
 
 Extract the code to some directy, Once the code is extracted, user can see folder structure
