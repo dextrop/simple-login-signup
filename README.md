@@ -1,6 +1,6 @@
 # SimpleLoginPage
 
-![imagedemo](src/assets/simplelogin.png)
+![imagedemo](https://jennie-uploaded-assets.s3.ap-south-1.amazonaws.com/simplelogin.png)
 
 ## Intregration Steps
 
